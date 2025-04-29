@@ -15,10 +15,17 @@
     --White: hsl(0, 0%, 100%);
 }
 
+body{
+    max-width: 1600px ;
+    margin: 0 auto;
+}
+
 nav{
     background-image: url(assets/desktop/half-orange-slice.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    padding-bottom: 10rem;
 }
 
 .ul-div{
@@ -35,14 +42,22 @@ nav{
 display: flex;
 flex-direction: column;
 align-items: center;
+
+}
+
+.nav-div-2 img{
+    padding: 1rem;
+}
+
+.nav-div-2-img{
+    max-width: 70%;
 }
 
 nav h1{
     font-family: 'Fraunces', serif;
-    /* font-size: 3rem; */
-    max-width: 70%;
+    font-size: 2.5rem;
+    max-width: 80%;
     color: var(--White);
-    margin-bottom: 1rem;
     text-align: center;
     font-weight: 900;
 }
@@ -69,20 +84,75 @@ nav h1{
     margin-bottom: 1rem;
     font-weight: 900;
     max-width: 70%;
+    padding-top: 1rem;
+    color: var(--Very-dark-desaturated-blue);
 }
 
 .section-1 p{
     font-family: 'Barlow', sans-serif;
     font-size: 1.2rem;
-    max-width: 90%;
-    margin-bottom: 1rem;
+    max-width: 80%;
+    margin-bottom: 2rem;
+    text-align: center;
     color: var(--Dark-grayish-blue);
+    font-weight: 500;
 }
 
 .section-1 h2{
     font-family: 'Fraunces', serif;
-    font-size: 1.5rem;
-
-
+    font-size: 1rem;
+    border-bottom: 5px solid yellow;
+    color: var(--Dark-grayish-blue);
 }
+
+.desktop-img-pink-cup{
+    display: none;
+}
+
+.mobile-img-pink-cup img{
+    max-width: 100%;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem 0;
+}
+.section-2 h1{
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 900;
+    max-width: 70%;
+    color: var(--Very-dark-desaturated-blue);
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.section-2 p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.2rem;
+    max-width: 80%;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: var(--Dark-grayish-blue);
+    font-weight: 600;
+    margin: 0 auto;
+    padding-top: 1.5rem;
+    line-height: 1.8rem;
+}
+
+.section-2 h2{
+    font-family: 'Fraunces', serif;
+    font-size: 1rem;
+    border-bottom: 5px solid pink;
+    color: var(--Very-dark-grayish-blue);
+    font-weight: 900;
+    padding-top: 1rem;
+}
+
 
