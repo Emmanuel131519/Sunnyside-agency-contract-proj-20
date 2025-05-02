@@ -8,6 +8,12 @@
 }
 
 :root {
+
+    --Soft-red:(7, 99%, 70%);
+    --Yellow: hsl(51, 100%, 49%);
+    --Dark-desaturated-cyan-graphic-design-text: hsl(167, 40%, 24%);
+    --Dark-blue-photography-text: hsl(198, 62%, 26%);
+    --Dark-moderate-cyan-footer:hsl(168, 34%, 41%);
     --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
     --Very-dark-grayish-blue: hsl(213, 9%, 39%);
     --Dark-grayish-blue: hsl(232, 10%, 55%);
@@ -174,7 +180,7 @@ nav h1{
     margin-bottom: 1rem;
     font-weight: 900;
     max-width: 70%;
-    color: var(--Very-dark-desaturated-blue);
+    color: var(--Dark-desaturated-cyan-graphic-design-text);
     text-align: center;
     margin: 0 auto;
     padding-top: 2rem;
@@ -226,7 +232,7 @@ nav h1{
     max-width: 100%;
     margin-bottom: 2rem;
     text-align: center;
-    color: var(--Very-dark-desaturated-blue);
+    color: var(--Dark-blue-photography-text);
     font-weight: 600;
     margin: 0 auto;
     padding-top: 1.5rem;
@@ -360,4 +366,34 @@ max-width: 50%;
 .section-5-div-1-div-2{
     display: flex;
 }
+
+footer{
+    background-color: var(--Dark-moderate-cyan-footer);
+    padding-bottom: 6rem;
+}
+
+.footer-div-1{
+    display: flex;
+    justify-content: center;
+    padding: 2.5rem 0;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: var(--Very-dark-desaturated-blue);
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding-top: 4rem;
+    justify-content: center;
+}
+
+
 
