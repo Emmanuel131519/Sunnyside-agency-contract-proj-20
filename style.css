@@ -252,6 +252,7 @@ nav h1{
     justify-content: center;
     text-align: center;
     padding: 3.5rem 0;
+gap: 3rem;
 }
 
 .section-4 h1{
@@ -286,6 +287,77 @@ letter-spacing: 9px;
     padding-top: 1.5rem;
     color: var(--Very-dark-desaturated-blue);
     font-weight: 900;
+    padding-bottom: 1rem;
 }
 
+.section-4-div-2 img{
+    border-radius: 100%;
+    width: 20%;
+}
+
+.section-4-div-2 p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.2rem;
+    max-width: 80%;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: var(--Dark-grayish-blue);
+    font-weight: 600;
+    margin: 0 auto;
+    padding-top: 1.5rem;
+    line-height: 1.8rem;
+
+}
+.section-4-div-2 h2{
+    font-family: 'Fraunces', serif;
+    padding-top: 1.5rem;
+    color: var(--Very-dark-desaturated-blue);
+    font-weight: 900;
+    padding-bottom: 1rem;
+}
+
+.section-4-div-3 img{
+    border-radius: 100%;
+    width: 20%;
+}
+
+.section-4-div-3 p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.2rem;
+    max-width: 80%;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: var(--Dark-grayish-blue);
+    font-weight: 600;
+    margin: 0 auto;
+    padding-top: 1.5rem;
+    line-height: 1.8rem;
+
+}
+.section-4-div-3 h2{
+    font-family: 'Fraunces', serif;
+    padding-top: 1.5rem;
+    color: var(--Very-dark-desaturated-blue);
+    font-weight: 900;
+    padding-bottom: 1rem;
+}
+
+
+.section-5-div-1 img{
+max-width: 50%;
+}
+
+.section-5-div-2{
+    display: none;
+}
+
+.section-5-div-1-div-1{
+    display: flex;
+    justify-content: center;
+
+}
+
+.section-5-div-1-div-2{
+    display: flex;
+}
 
