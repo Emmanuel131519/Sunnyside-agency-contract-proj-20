@@ -77,7 +77,7 @@ nav h1{
     max-width: 100%;
 }
 
-.section-1{
+.section-1-div{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -85,7 +85,7 @@ nav h1{
     text-align: center;
     padding: 2rem 0;
 }
-.section-1 h1{
+.section-1-div h1{
     font-family: 'Fraunces', serif;
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -95,7 +95,7 @@ nav h1{
     color: var(--Very-dark-desaturated-blue);
 }
 
-.section-1 p{
+.section-1-div p{
     font-family: 'Barlow', sans-serif;
     font-size: 1.2rem;
     max-width: 80%;
@@ -105,7 +105,7 @@ nav h1{
     font-weight: 500;
 }
 
-.section-1 h2{
+.section-1-div h2{
     font-family: 'Fraunces', serif;
     font-size: 1rem;
     border-bottom: 5px solid yellow;
@@ -378,6 +378,23 @@ footer{
     padding: 2.5rem 0;
 }
 
+.footer-div-1 img{
+    /* fill: red; */
+    /* color:var(--Dark-desaturated-cyan-graphic-design-text); */
+    /* filter: grayscale(70%) brightness(0.6) saturate(0.3); */
+    /* position: relative; */
+}
+
+.footer-div-1 img ::after{
+/* content: "";
+position: absolute ;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background-color:hsl(167, 40%, 24%,0.5); */
+}
+
 footer ul{
     display: flex;
     justify-content: space-around;
@@ -395,5 +412,74 @@ footer ul{
     justify-content: center;
 }
 
+@media(min-width: 768px){
+    .nav-div-1-div{
+        display: none;
+    }
+    .ul-div{
+display: block;
+display: flex;
+gap: 5rem;
+padding: 12px;
+    }
+
+    nav{
+        padding-bottom: 15rem;
+    }
+    
+
+.nav-div{
+    display: flex;
+justify-content: space-between;
+font-family: 'Barlow', sans-serif;
+font-weight: 700;
+color: var(--White);
+
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 5rem;
+    padding: 12px;
+}
+
+.section-1{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.section-1-div{   
+    text-align: start;
+}
+
+.section-1-div p{
+    text-align: start;
+}
+
+.section-1-div h1{
+    text-align: start;
+}
+
+.mobile-img-egg{
+    display: none;
+} 
+
+.desktop-img-egg{
+    display: block;
+}
+
+.nav-button-div{
+    background-color: var(--White);
+    font-weight: bold;
+    border: none;
+    border-radius: 12px; 
+    padding: 10px 25px;
+    cursor: pointer;
+}
 
 
+
+
+}
