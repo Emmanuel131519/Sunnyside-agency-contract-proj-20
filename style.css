@@ -105,6 +105,10 @@ nav h1{
     font-weight: 500;
 }
 
+.section-1{
+    border: 1px solid red;
+}
+
 .section-1-div h2{
     font-family: 'Fraunces', serif;
     font-size: 1rem;
@@ -127,6 +131,7 @@ nav h1{
     justify-content: center;
     text-align: center;
     padding: 2rem 0;
+    border: 1px solid red;
 }
 .section-2 h1{
     font-family: 'Fraunces', serif;
@@ -444,20 +449,21 @@ nav ul{
     padding: 12px;
 }
 
+.section-1 img{
+width: 100%;
+  
+}
+
 .section-1{
     display: flex;
     flex-direction: row-reverse;
-    margin: 0 auto;
-    justify-content: center;
-    justify-content: center;
-    align-items: center;
-  
 }
 
 .section-1-div{   
     display: flex;
     align-items: center;
     text-align: start;
+    width: 50%;
 }
 
 .section-1-div p{
@@ -482,6 +488,8 @@ line-height: 1.8rem;
 
 }
 
+
+
 .section-1-h2{
 border: none;
 align-items: start;
@@ -493,6 +501,8 @@ align-items: start;
 
 .desktop-img-egg{
     display: block;
+    border: 1px solid red;
+    width: 50%;
 }
 
 .nav-button-div button{
@@ -510,17 +520,13 @@ align-items: start;
     /* border: 1px solid red; */
 }
 
-.section-2{
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    justify-content: center;
-    justify-content: center;
-    align-items: center;
+.section-2 img{
+width: 100%;
 }
 
 .section-2-div{
-
+    border: 1px solid red;
+    width: 50%;
 
 }
 
@@ -548,12 +554,29 @@ border: none;
     display: none;
 }
 
-.desktop-img-pink-cup{
+.desktop-img-pink-cup {
     display: block;
+    width:50%;
+
 }
+
+.section-2{
+    display: flex;
+    flex-direction: row;
+    padding-top: 0;
+    
+}
+
+
+
+
 
 .section-3{
     display: flex;
+}
+
+.section-3-div-1{
+    
 }
 
 
