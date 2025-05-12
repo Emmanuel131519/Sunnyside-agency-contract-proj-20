@@ -457,6 +457,7 @@ width: 100%;
 .section-1{
     display: flex;
     flex-direction: row-reverse;
+    border: none;
 }
 
 .section-1-div{   
@@ -501,7 +502,6 @@ align-items: start;
 
 .desktop-img-egg{
     display: block;
-    border: 1px solid red;
     width: 50%;
 }
 
@@ -525,7 +525,6 @@ width: 100%;
 }
 
 .section-2-div{
-    border: 1px solid red;
     width: 50%;
 
 }
