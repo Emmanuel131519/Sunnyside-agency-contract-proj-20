@@ -24,6 +24,7 @@
 body{
     max-width: 1600px ;
     margin: 0 auto;
+    padding: 0;
 }
 
 nav{
@@ -83,7 +84,6 @@ nav h1{
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 2rem 0;
 }
 .section-1-div h1{
     font-family: 'Fraunces', serif;
@@ -105,9 +105,7 @@ nav h1{
     font-weight: 500;
 }
 
-.section-1{
-    border: 1px solid red;
-}
+
 
 .section-1-div h2{
     font-family: 'Fraunces', serif;
@@ -130,7 +128,6 @@ nav h1{
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 2rem 0;
     border: 1px solid red;
 }
 .section-2 h1{
@@ -421,6 +418,10 @@ footer ul{
     .nav-div-1-div{
         display: none;
     }
+
+    main{
+        padding: 0;
+    }
     .ul-div{
 display: block;
 display: flex;
@@ -556,14 +557,11 @@ border: none;
 .desktop-img-pink-cup {
     display: block;
     width:50%;
-
 }
 
 .section-2{
     display: flex;
     flex-direction: row;
-    padding-top: 0;
-    
 }
 
 
@@ -571,13 +569,34 @@ border: none;
 
 
 .section-3{
-    display: flex;
+display: flex;
+max-width: 100%;
+
 }
 
 .section-3-div-1{
-    
+    display: flex;
+max-width: 50%;
+
 }
 
+.section-4-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.section-2{
+
+}
+
+.section-5-div-1{
+    display: flex;
+}
+
+footer ul{
+    justify-content: center;
+    gap: 5rem;
+}
 
 
 }
