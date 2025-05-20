@@ -583,8 +583,20 @@ footer ul {
   .section-2 {
   }
 
+.section-5-div-2{
+  display: flex;
+  max-width: 100%;
+flex: 1;
+}
+
+.section-5-div-2 img{
+  max-width: 100%;
+  flex: 1;
+}
+
   .section-5-div-1 {
-    display: flex;
+    display: none;
+
   }
 
   footer ul {
@@ -592,4 +604,8 @@ footer ul {
     gap: 5rem;
   }
 
+
+  .section-4 img{
+    max-width: 4rem;
+  }
 }
